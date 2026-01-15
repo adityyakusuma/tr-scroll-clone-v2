@@ -23,6 +23,9 @@ Project ini dibuat sebagai bagian dari **Technical Test – Junior Frontend Deve
 - **HTML5**
 - **CSS Grid & Flexbox**
 
+## 🚀 Live Demo
+https://tr-scroll-clone-v2.vercel.app
+
 ---
 
 ## 📂 Project Structure
@@ -44,3 +47,4 @@ src/
  │   └─ index.vue
  ├─ App.vue
  └─ main.js
+
