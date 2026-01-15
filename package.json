@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "prebuild": "npm run optimize-images",
+    "optimize-images": "node tools/optimize-images.js && node tools/optimize-jpgs.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "gsap": "^3.14.2",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -19,6 +22,10 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "madge": "^8.0.0",
+    "sass": "^1.97.2",
+    "sass-loader": "^10.5.2",
+    "sharp": "^0.34.5",
     "vue-template-compiler": "^2.6.14"
   }
 }
